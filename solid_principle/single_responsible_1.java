@@ -1,7 +1,9 @@
 package solid_principle;
 
 public class single_responsible_1 {
-    
+    public static void main(String[] args) {
+        
+    }
 }
 
 
@@ -17,7 +19,6 @@ reduce complexity
 */
 
 // A class should have only one reason to change
-
 class Marker{
     String name;
     String colour;
@@ -31,8 +32,6 @@ class Marker{
         this.price=price;
     }
 }
-
-
 
 class Invoice{
     private Marker marker;
