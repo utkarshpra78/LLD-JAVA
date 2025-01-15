@@ -5,6 +5,7 @@ import vehicletype.Vehicle;
 
 public class ParkingLotMain {
     public static void run(){
+        
         ParkingLot parkingLot = ParkingLot.getInstance();
         parkingLot.addLevel(new Level(1,100));
         parkingLot.addLevel(new Level(2,120));
